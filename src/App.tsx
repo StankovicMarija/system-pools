@@ -1,7 +1,14 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
-	return <div className="App">hello</div>;
-}
+import Home from './pages/Home.tsx';
+
+const App = () => (
+	<BrowserRouter>
+		<Routes>
+			<Route path="/" element={<Home />} />
+		</Routes>
+	</BrowserRouter>
+);
 
 export default App;
