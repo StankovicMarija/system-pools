@@ -3,6 +3,7 @@ import React from 'react';
 import heroImg from '../assets/herogallery.webp';
 import Header from '../components/Header.tsx';
 import Hero from '../components/Hero.tsx';
+import WhyUs from '../components/WhyUs.tsx';
 
 const Gallery = () => (
 	<>
@@ -16,6 +17,7 @@ const Gallery = () => (
 				</p>
 			</div>
 		</Hero>
+		<WhyUs />
 	</>
 );
 

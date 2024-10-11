@@ -3,6 +3,7 @@ import React from 'react';
 import heroImg from '../assets/heroabout.webp';
 import Header from '../components/Header.tsx';
 import Hero from '../components/Hero.tsx';
+import WhyUs from '../components/WhyUs.tsx';
 
 const AboutUs = () => (
 	<>
@@ -14,6 +15,7 @@ const AboutUs = () => (
 				story and discover why we’re the preferred choice for all your pool service needs.
 			</p>
 		</Hero>
+		<WhyUs />
 	</>
 );
 
