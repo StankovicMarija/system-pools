@@ -8,6 +8,7 @@ import Button from '../components/Button.tsx';
 import Header from '../components/Header.tsx';
 import Hero from '../components/Hero.tsx';
 import OptimizedImg from '../components/UI/OptimizedImg.tsx';
+import WhyUs from '../components/WhyUs.tsx';
 
 const Home = () => {
 	const navigate = useNavigate();
@@ -36,6 +37,7 @@ const Home = () => {
 					</Button>
 				</div>
 			</Hero>
+			<WhyUs />
 		</>
 	);
 };

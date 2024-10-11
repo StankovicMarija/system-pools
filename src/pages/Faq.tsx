@@ -3,6 +3,7 @@ import React from 'react';
 import heroImg from '../assets/heroFaq.webp';
 import Header from '../components/Header.tsx';
 import Hero from '../components/Hero.tsx';
+import WhyUs from '../components/WhyUs.tsx';
 
 const Faq = () => (
 	<>
@@ -14,6 +15,7 @@ const Faq = () => (
 				address any queries you may have about our services, ensuring a smooth and informed experience.
 			</p>
 		</Hero>
+		<WhyUs />
 	</>
 );
 
